@@ -1,0 +1,15 @@
+{
+  "name": "pygame4skulpt",
+  "version": "1.0.0",
+  "description": "An example of the module can be found on [http://petlja.github.io/pygame4skulpt](http://petlja.github.io/pygame4skulpt).\r ## How to use\r In order to use the module, you will probably want to have files served by a http server as in [run-example.sh](https://github.com/Petlja/pygame4skulpt/blob/master/run-example.sh) and [run-example.bat](https://github.com/Petlja/pygame4skulpt/blob/master/run-example.bat).\r Our Pygame module can be imported as follows:\r ~~~\r     var basePath = 'pygame/';\r     Sk.externalLibraries = {\r         'pygame': {\r             path: basePath + '__init__.js',\r         },\r         'pygame.display': {\r             path: basePath + 'display.js',\r         },\r         'pygame.draw': {\r             path: basePath + 'draw.js',\r         },\r         'pygame.event': {\r             path: basePath + 'event.js',\r         },\r         'pygame.font': {\r             path: basePath + 'font.js',\r         },\r         'pygame.image': {\r             path: basePath + 'image.js',\r         },\r         'pygame.key': {\r             path: basePath + 'key.js',\r         },\r         'pygame.mouse': {\r             path: basePath + 'mouse.js',\r         },\r         'pygame.time': {\r             path: basePath + 'time.js',\r         },\r         'pygame.transform': {\r             path: basePath + 'transform.js',\r         },\r         'pygame.version': {\r             path: basePath + 'version.js',\r         },\r     };\r ~~~\r Base path should correspond to the location where you put the Pygame module. A CDN version can be found at\r [https://cdn.rawgit.com/Petlja/pygame4skulpt/3435847b/pygame/__init__.js](https://cdn.rawgit.com/Petlja/pygame4skulpt/3435847b/pygame/__init__.js).",
+  "main": "./index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
